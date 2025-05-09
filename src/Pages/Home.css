@@ -1,0 +1,161 @@
+/* General Page Layout */
+.home-container {
+    display: flex;
+    flex-direction: column; /* Stack top and bottom sections vertically */
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.front-page {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* adjust opacity here */
+    z-index: 1;
+  }
+  
+/* Overlay for the title and slogan */
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px; /* Adjust as needed */
+    z-index: 2;
+}
+
+
+
+/* Target the title in the overlay */
+.overlay h1 {
+    font-size: 7rem; /* Increased font size for the Nibbles title */
+    margin: 2rem;
+    font-weight: bold; /* Make the title bold */
+}
+.overlay h3 {
+    font-size: 1.5rem; /* Increased font size for the Nibbles title */
+    margin: 2rem;
+    font-weight: bold; /* Make the title bold */
+}
+
+
+/* Top Section: Intro and Image */
+.top-section {
+    display: flex; /* Place intro and image beside each other */
+    justify-content: space-between;
+    align-items: center; /* Center content vertically */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Optional max width for layout */
+    margin-bottom: 40px; /* Space below top section */
+}
+
+/* Image Section */
+.image-section {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    text-align: center;
+}
+
+.profile-image {
+    width: 300px; /* Fixed width for the image */
+    height: 300px; /* Ensure the image is square */
+    border-radius: 50%; /* Crop the image into a circle */
+    object-fit: cover; /* Ensure the image scales correctly */
+    border: 3px solid #000000; /* Optional border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Introductory Section */
+.intro-section {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Text color */
+    padding-top: 3rem;
+    margin-left: 150px; /* Space between text and image */
+    line-height: 40px;
+}
+
+.contact-icons a svg{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.contact-icons a:hover svg {
+    color: #56ccf2;
+    transform: scale(1.1);
+}
+
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+}
+
+.more-info p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.more-info button {
+    background-color: #000000;
+    color: white;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.more-info button:hover {
+    background-color: #008490;
+    transform: scale(1.05);
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+  

@@ -1,0 +1,64 @@
+/* Base Navbar */
+.navbar {
+  padding-block: 40px;
+  padding-inline: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+  color: rgb(255, 255, 255);
+}
+
+/* Transparent Navbar for all pages */
+.navbar-transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border-bottom: none;
+}
+
+/* Transparent Navbar for all pages */
+.navbar-non-transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  border-bottom: none;
+}
+
+/* Content starts below navbar if needed */
+.page-container {
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+/* Title */
+.navbar h1 {
+  margin: 0;
+}
+
+/* Links */
+.navbar .links {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+/* Link style */
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Ensure body and html have no margin and smooth scroll */
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
