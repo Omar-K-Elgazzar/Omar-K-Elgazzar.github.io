@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectStyle.css'; // Shared CSS for all projects
-import projectImage from '../../Images/PID.png'; // Replace with your image
+import projectVideo from '../../Videos/PIDDemo.mp4'; // Replace with your image
 
 const ProjectTemplate = () => {
   return (
@@ -10,7 +10,10 @@ const ProjectTemplate = () => {
             <h1>PID Controlled Bridge</h1>
         </div>
       <div className="project-image-section">
-        <img src={projectImage} alt="Project Screenshot" className="project-image" />
+        <video className="project-image" controls>
+          <source src={projectVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div className="tools">
         <p><em><strong>Made with: C/C++ , Arduino, 3D Prints + Laser-Cut Wood</strong></em></p>
@@ -20,7 +23,10 @@ const ProjectTemplate = () => {
             <section className="project-section">
                 <h2>Overview</h2>
                 <p>
-                A cart is placed in the middle of the bridge. When the cart is disturbed, a PID Control System is implemented and a servo constantly tilts the  bridge so that the cart always ends up back at the exact center of the bridge
+                Using Sketchup, I designed the pieces of a bridge that can tilt to either side with the use of an arduino and a servo motor. Alongside the 
+                the bridge, I also designed a small mini cart that could be placed upon the bride. Once the pieces were designed, I laser cut them out and
+                assembled it all together. Using an ultrasonic sensor attatched at the end of the bridge, a PID control system will constantly tilt the bridge
+                so that the mini-cart stays exactly in the middle of the bridge regardless of any outside disturbances.
                 </p>
             </section>
         </div>

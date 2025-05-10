@@ -79,7 +79,7 @@ const Experience = () => {
             <ul>
               <li>Founded a registered non-profit organization combating food insecurity through private meal/grocery delivery</li>
               <li>Organized volunteers to cook halal meals and deliver them discreetly to beneficiaries</li>
-              <li>Helped 500+ individuals annually across the GTA</li>
+              <li>The program helps 500+ individuals annually across the GTA</li>
             </ul>
           </div>
         </div>

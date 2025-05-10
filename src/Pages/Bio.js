@@ -16,8 +16,8 @@ const Bio = () => {
         <div className="background-overlay"></div>
         <div className="overlay">
           <div className="overlay-content">
-            <h1>The Story of Omar</h1>
-            <h3>From a curious child to a future Mechatronics Engineer</h3>
+            <h1>Personal Biography</h1>
+            <h3>From a curious child to a Mechatronics Engineer</h3>
             <button className="scroll-button" onClick={scrollToContent}>
               <FaChevronDown size={30} color="white" />
             </button>
@@ -29,8 +29,8 @@ const Bio = () => {
       <div id="education" className="section education">
         <h1><em>Background & Education</em></h1>
         <p>
-          I was born in Alexandria, Egypt, and moved to Kingston, Canada at the age of two. From there, I spent time in Pennsylvania and Louisiana
-          before finally settling in Oshawa, Ontario, where I completed high school. Today, I’m living my dream—
+          Altough, born in Alexandria, Egypt, I have lived most of my life in Nort America. Always on the move, life was a constant cycle of trying to make new friends and 
+          fitting into society. In 2024, I recieved my highschool diploma at Maxwell Heights Secondary School, located in Oshawa, ON. Today, I’m living my dream—
           pursuing Mechatronics Engineering at the University of Waterloo.
         </p>
       </div>
@@ -45,7 +45,8 @@ const Bio = () => {
             I’ve been building robots since the age of 8. From founding robotics clubs in the U.S. to leading one in Canada,
             I’ve always pushed myself to design innovative creations. As president of my high school robotics club, I led our team through
             several competitions including the Ontario Tech Sumo Bot Challenge and the Alamein International Robotics Championship in Egypt.
-            These experiences sharpened my technical skills and built lifelong friendships.
+            These experiences sharpened my technical skills and built lifelong friendships. Today, I continue that passion working with desing teams
+            at the University of Waterloo.
           </p>
         </div>
 
@@ -77,7 +78,7 @@ const Bio = () => {
             <span className="award-year">2024</span>
             </div>
             <div className="award-item">
-            <span><em>Schulich Leader Award</em></span>
+            <span><em>Schulich Leader Nominee Award</em></span>
             <span className="award-year">2024</span>
             </div>
             <div className="award-item">

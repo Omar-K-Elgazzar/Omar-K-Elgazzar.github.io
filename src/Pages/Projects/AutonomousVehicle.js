@@ -23,7 +23,10 @@ const ProjectTemplate = () => {
             <section className="project-section">
                 <h2>Overview</h2>
                 <p>
-                This Arduino vehicle, using multiple sensors and an elaborate program, is able to either drive completely on its own while avoiding obstacles or follow a given line no matter how curvy it gets. 
+                I assembled the base of a car and attatched upon it an arduino, a breadboard containing a L293 (H-Bridge) chip and a 9v battery.
+                At the head of the car was an Ultrasonic sensor that could be used to detect objects in the cars way. After writing some code to the 
+                arduino, the car was able to move autonomously and avoid an obstacles placed in its way. As a side-challenge, I also coded the car to 
+                follow a curvy black line using a color sensor and complete the track in record time!
                 </p>
             </section>
         </div>

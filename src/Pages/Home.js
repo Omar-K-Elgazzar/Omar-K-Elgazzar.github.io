@@ -21,7 +21,7 @@ const Home = () => {
         <div className="overlay">
           <div className="overlay-content">
             <h1>Omar Elgazzar</h1>
-            <h3>Upcoming Mechatronics Engineer with a Fiery Passion for Robotics</h3>
+            <h3>Mechatronics Engineer with a Fiery Passion for Robotics</h3>
             <div className="contact-icons">
               <a href="mailto:omar.k.elgazzar@gmail.com" target="_blank" rel="noopener noreferrer">
                 <FaEnvelope size={50}/>
