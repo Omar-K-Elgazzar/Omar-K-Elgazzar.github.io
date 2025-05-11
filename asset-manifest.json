@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c27efd1.css",
+    "main.js": "/static/js/main.44a71c70.js",
+    "static/media/RoboPatch.mp4": "/static/media/RoboPatch.4382a89c73cf4e8dcab4.mp4",
+    "static/media/AutonomousVehicle.mp4": "/static/media/AutonomousVehicle.7236c2522a2d683a2fd0.mp4",
+    "static/media/NibblesDemo.mp4": "/static/media/NibblesDemo.7185c00f31d159cd4f05.mp4",
+    "static/media/Ottonomi-AI.png": "/static/media/Ottonomi-AI.d67145cebc805f92213b.png",
+    "static/media/GoatShelter.png": "/static/media/GoatShelter.581a43aa494afe8f173e.png",
+    "static/media/Research-Assistant.png": "/static/media/Research-Assistant.31257e3f06df19e53ce0.png",
+    "static/media/PLP-Supervision.png": "/static/media/PLP-Supervision.95e7ef5cd29583b65fa5.png",
+    "static/media/PID.png": "/static/media/PID.f0f5a7875434edc79a9f.png",
+    "static/media/PIDDemo.mp4": "/static/media/PIDDemo.2bf4e8a8918f82b9cb63.mp4",
+    "static/media/AutonomousVehicle-FrontPage.png": "/static/media/AutonomousVehicle-FrontPage.1247ba658a5abda84353.png",
+    "static/media/Ramadan-Respite.png": "/static/media/Ramadan-Respite.97af55f84be3bee5747e.png",
+    "static/media/Nibbles-FrontPage.png": "/static/media/Nibbles-FrontPage.b3f0d585302be4752e26.png",
+    "static/media/Work-Experience-Background.jpg": "/static/media/Work-Experience-Background.cfc77586f2bd19ec3b95.jpg",
+    "static/media/InfectedGame.png": "/static/media/InfectedGame.1fe6c79ab3dda4b625ba.png",
+    "static/media/Omar-Elgazzars-Headshot.jpg": "/static/media/Omar-Elgazzars-Headshot.4e8e12afca69a61f2635.jpg",
+    "static/media/Bio-Background.png": "/static/media/Bio-Background.889fce1c8fd18c8d5110.png",
+    "static/media/AlphasMountain-FrontPage.png": "/static/media/AlphasMountain-FrontPage.ac1cfb1da039e89dd3bb.png",
+    "static/media/InfectedGame-FrontPage.png": "/static/media/InfectedGame-FrontPage.e5bb1e2b399fa13a7d52.png",
+    "static/media/microchip.jpg": "/static/media/microchip.660b3fcc06109d0fbd02.jpg",
+    "static/media/RoboPatch-FrontPage.png": "/static/media/RoboPatch-FrontPage.d8b90873d77aa4c7890b.png",
+    "static/media/robotArm.jpg": "/static/media/robotArm.2ece141ab0cd84f13d3a.jpg",
+    "index.html": "/index.html",
+    "main.5c27efd1.css.map": "/static/css/main.5c27efd1.css.map",
+    "main.44a71c70.js.map": "/static/js/main.44a71c70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c27efd1.css",
+    "static/js/main.44a71c70.js"
+  ]
+}
