@@ -21,7 +21,7 @@ const Experience = () => {
         <div className="overlay">
           <div className="overlay-content">
             <h1>Work Experience</h1>
-            <h3>Upcoming Mechatronics Engineer with a Fiery Passion for Robotics</h3>
+            <h3>Mechatronics Engineer with a Fiery Passion for Robotics</h3>
             <button className="scroll-button" onClick={scrollToContent}>
               <FaChevronDown size={30} color="white" />
             </button>
